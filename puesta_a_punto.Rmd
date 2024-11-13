@@ -12,7 +12,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ## Instrucciones de instalación de los programas R y Rstudio ^[Traducción del instructivo original diseñado por [Data Carpentry](https://datacarpentry.org/R-genomics/index.html)]
 
 
-**R** y **RStudio** son descargas e instalaciones independientes. R es el entorno de cálculo estadístico subyacente, pero utilizar R por sí solo no es divertido. RStudio es un entorno gráfico de desarrollo integrado (IDE) que hace que el uso de R sea mucho más fácil e interactivo. Es necesario instalar R antes de instalar RStudio. Después de instalar ambos programas, tendrá que instalar el paquete `tidyverse` desde RStudio. En las siguientes secciones encontrará las instrucciones para instalar R y R Studio en su sistema operativo, así como las instrucciones para instalar a continuación `tidyverse`
+**R** y **RStudio** son descargas e instalaciones independientes. R es el entorno de cálculo estadístico subyacente, pero utilizar R por sí solo no es divertido. RStudio es un entorno gráfico de desarrollo integrado (IDE) que hace que el uso de R sea mucho más fácil e interactivo. Es necesario instalar R antes de instalar RStudio. Después de instalar ambos programas, tendrá que instalar el paquete `tidyverse` y `shiny`  desde RStudio. En las siguientes secciones encontrará las instrucciones para instalar R y R Studio en su sistema operativo, así como las instrucciones para instalar a continuación `tidyverse`
 
 <br>
 
@@ -92,7 +92,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 **Después de instalar R y RStudio, necesitas instalar los paquetes `tidyverse`**
 
-- Después de iniciar RStudio, en la consola escriba: `install.packages("tidyverse")`
+- Después de iniciar RStudio, en la consola escriba: `install.packages("tidyverse", "shiny")`
 
 
 ## Descarga de Slack (versión escritorio)

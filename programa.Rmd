@@ -1,35 +1,42 @@
 ---
 title: "Programa"
 authot: 
-  - name: Pablo Tiscornia
+  - name: Estación R + Elian Soutullo
 site: distill::distill_website
 ---
 
 
-### Módulo I: Presentación del lenguaje R.
+### Módulo I: Introducción
   
-  + R base.
-  + Data frames (bases de datos)
-  + Paquetes
-  + Proyectos de trabajo con RStudio
+- ¿Qué es Shiny? ¿Por qué Shiny? Alcances y ejemplos de aplicaciones desarrolladas con Shiny.
+
+- Funcionamiento y arquitectura básica de una app. UI + Server.
+
+- Cómo crear un proyecto de app. 
+
   
 
-### Módulo II: Procesamiento de datos con el paquete `Tidyverse`:
+### Módulo II: UI (frontend)
 
-  + Importación (de Excel, SPSS, Stata, archivos de texto, etc.)
-  + Limpieza: Seleccionar variables, filtrar casos, recodificar, renombrar, ordenar y agrupar información.
-  + Tratamiento de valores faltantes (missing values/ NA´s)
-  + Construir medidas de resumen de la información
+- ¿Por dónde empiezo? Prototipo y diseño de la UI. Componentes base (framework): page, layout, panels, navbar, tabset, rows,columns, etc.
+
+- Tipos de inputs.
+
+### Módulo III: Server (backend)
+
+- Cargando mis propios datos a una app. Conexión con la UI. 
+
+- Programación reactiva. Reactives y Observers. 
 
 
-### Módulo III: Visualización de la información
+### Módulo IV: Mi primera Shiny
   
-  + Paquete `ggplot2`: 
-  + Gráficos de línea, barras, Boxplots
-  + Chapa y pintura: Leyendas, ejes, títulos, notas, colores, escala
+- Desarrollo de una app de principio a fin. Inputs + Outputs + Renders + Reactivos
 
-
-### Módulo IV: Introducción al armado de informes/reportes con RMarkdown
+### Módulo IV: Compartiendo mi app
   
-  + Aspectos básicos de html
-  + Recopilación y procesamiento de datos de la web
+- Compartir la app (deploy) a través de diferentes opciones. Publicacion de la app en shinyapps.io (gratis).
+
+- ¿Cómo seguir? 
+
+- Recursos adicionales: books, frameworks, paquetes y buenas prácticas.

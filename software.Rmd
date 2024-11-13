@@ -9,6 +9,6 @@ site: distill::distill_website
 
 1.  [`Slack`](https://slack.com/intl/es-ar/) - Espacio de trabajo
 
-3.  [`R`](https://cran.r-project.org/) - *CRAN (The Comprehensive R Archive Network)*
+2.  [`R`](https://cran.r-project.org/) - *CRAN (The Comprehensive R Archive Network)*
 
-4.  [`RStudio`](https://www.rstudio.com/products/rstudio/) *IDE (Integrated Development Environment)*
+3.  [`RStudio`](https://www.rstudio.com/products/rstudio/) *IDE (Integrated Development Environment)*

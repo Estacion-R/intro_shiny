@@ -19,8 +19,8 @@ navbar:
           href: programa.html
         - text: "Puesta a punto"
           href: puesta_a_punto.html
-        - text: "Bibliografia"
-          href: biblio.html
+        #- text: "Bibliografia"
+        #  href: biblio.html
     - text: "Encuentros"
       menu:
         - text: "Módulo I - Introducción a Shiny"
