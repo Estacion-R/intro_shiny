@@ -1,6 +1,6 @@
-name: "intro_r"
+name: "intro_shiny"
 title: "Inicio"
-description: "Intro a R"
+description: "Intro a Shiny"
 output_dir: "docs"
 theme: estilo/theme_intro_r.css
 navbar:
@@ -10,12 +10,11 @@ navbar:
   favicon: estilo/logo/logo_aaip.ico
   twitter:
     site: "@estacion-r"
-  #source_url: https://github.com/rstudio/distill
   left:
     - text: "Sobre el taller"
       menu:
         - text: "Docente"
-          href: about_pablotiscornia.html
+          href: profe.html
         - text: "Programa"
           href: programa.html
         - text: "Puesta a punto"
@@ -24,27 +23,27 @@ navbar:
           href: biblio.html
     - text: "Encuentros"
       menu:
-        - text: "Módulo I - Introducción a R"
-          href: a_diapositivas/01a-intro_a_r.html
-        - text: "Módulo II - Proyectos de trabajo"
-          href: a_diapositivas/01b-proyecto_de_trabajo.html
-        - text: "Módulo III - Procesamiento de datos"
-          href: a_diapositivas/02-procesamiento_de_datos.html
-        - text: "Modulo IV - Visualizacion de datos"
-          href: a_diapositivas/03-visualizacion_de_datos.html
-        - text: "Módulo V - Informes con Rmarkdown"
-          href: a_diapositivas/04-reportes.html
+        - text: "Módulo I - Introducción a Shiny"
+          href: a_diapositivas/01-intro_shiny.html
+        #- text: "Módulo II - Proyectos de trabajo"
+        #  href: a_diapositivas/01b-proyecto_de_trabajo.html
+        #- text: "Módulo III - Procesamiento de datos"
+        #  href: a_diapositivas/02-procesamiento_de_datos.html
+        #- text: "Modulo IV - Visualizacion de datos"
+        #  href: a_diapositivas/03-visualizacion_de_datos.html
+        #- text: "Módulo V - Informes con Rmarkdown"
+        #  href: a_diapositivas/04-reportes.html
     - text: "Ejercitacion"
       menu:
-        - text: "Modulo 01.a - R base - Practica"
-          href: b_ejercitacion/01_r_intro_practica.html
-        - text: "Modulo 02 - Herramientas de procesamiento de datos"
-          href: b_ejercitacion/02_tidyverse_practica.html
+        #- text: "Modulo 01.a - R base - Practica"
+        #  href: b_ejercitacion/01_r_intro_practica.html
+        #- text: "Modulo 02 - Herramientas de procesamiento de datos"
+        #  href: b_ejercitacion/02_tidyverse_practica.html
         #- text: "Modulo 03 - Herramientas para la vizualizacion de datos"
     - text: "Datos"
       menu:
-        - text: "relevamiento_indice_transparencia_2024.xlsx"
-          href: datos/relevamiento_indice_transparencia_2024.xlsx
-        - text: "salida_visualizaciones.xlsx"
-          href: datos/output_visualizaciones_2024-07-23.xlsx
+        #- text: "relevamiento_indice_transparencia_2024.xlsx"
+        #  href: datos/relevamiento_indice_transparencia_2024.xlsx
+        #- text: "salida_visualizaciones.xlsx"
+        #  href: datos/output_visualizaciones_2024-07-23.xlsx
 output: distill::distill_article
