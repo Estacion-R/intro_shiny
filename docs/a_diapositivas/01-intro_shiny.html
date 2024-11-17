@@ -3,7 +3,7 @@
   <head>
     <title>Introducción a Shiny</title>
     <meta charset="utf-8" />
-    <script src="01-intro_shiny_files/header-attrs-2.29/header-attrs.js"></script>
+    <script src="01-intro_shiny_files/header-attrs-2.20/header-attrs.js"></script>
     <link href="01-intro_shiny_files/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="01-intro_shiny_files/remark-css-0.0.1/nhsr.css" rel="stylesheet" />
   </head>
@@ -79,11 +79,13 @@ Resultado esperado: **programar una app propia**
 
 Nuestra primera app: `shiny_presentacion/app.R`
 
+Versión hecha con [Shiny Assistant (IA)](https://gallery.shinyapps.io/assistant/): [link](NobwRAdghgtgpmAXGKAHVA6ASmANGAYwHsIAXOMpMAGwEsAjAJykYE8AKAZwAtaJWAlAB0IdJiw71OY4aIbM27RnCgATAB7VZYhRwDuRRqoLUiAV1UAmbfIntSMWSLO0ABAB4AtK9RQA5nAA) (subir archivo)
+
 ---
 
 class: center, middle
 
-&lt;img src="https://github.com/Estacion-R/intro-shiny_profe/tree/main/claseIntro/recursos/shiny.png" width="60%" /&gt;
+&lt;img src="recursos/shiny.png" width="60%" /&gt;
 
 [https://shiny.posit.co/](https://shiny.posit.co/)
 
@@ -154,8 +156,6 @@ class: center, middle
 
 [https://rpodcast.shinyapps.io/shinylego/](https://rpodcast.shinyapps.io/shinylego/)
 
-Otro ejemplo: [mapeAr](https://tableros.yvera.tur.ar/mapeAr)
-
 ---
 
 # Para seguir explorando...
@@ -169,6 +169,7 @@ Otro ejemplo: [mapeAr](https://tableros.yvera.tur.ar/mapeAr)
 
 [Appsilon](https://www.appsilon.com/shiny-demo-gallery)
 
+[dreamRs](https://www.dreamrs.fr/)
 ---
 
 class: center, middle inverse
@@ -179,7 +180,7 @@ class: center, middle inverse
 
 # Arquitectura de una Shiny
 
-&lt;img src="https://github.com/Estacion-R/intro-shiny_profe/tree/main/claseIntro/recursos/what_is_shiny.png" width="100%" /&gt;
+&lt;img src="recursos/what_is_shiny.png" width="100%" /&gt;
 
 
 ---
@@ -206,7 +207,7 @@ class: center, middle inverse
 
 &lt;br&gt;
 
-&lt;img src="https://github.com/Estacion-R/intro-shiny_profe/tree/main/claseIntro/recursos/ui_example.png" width="100%" /&gt;
+&lt;img src="recursos/ui_example.png" width="100%" /&gt;
 
 ---
 
@@ -334,9 +335,9 @@ En el server definimos la lógica de nuestra app: es donde sucede la magia. Acá
 
 # UI + Server
 
-Son procesos que suceden en simultáneo y que están en comunicación
+Son procesos que están en comunicación
 
-&lt;img src="https://github.com/Estacion-R/intro-shiny_profe/tree/main/claseIntro/recursos/what_is_shiny.png" width="100%" /&gt;
+&lt;img src="recursos/what_is_shiny.png" width="100%" /&gt;
 
 ---
 
@@ -350,8 +351,11 @@ Son procesos que suceden en simultáneo y que están en comunicación
  - Como archivo: `New file &gt; Shiny Web App &gt; single file o multiple`
  - Como proyecto: `New Project &gt; Shiny Application`
 
+&lt;br&gt;
+
 Como recomendación, nuestra Shiny app debería ser un proyecto en sí mismo, que contenga todos, y únicamente, los scripts y archivos necesarios para su funcionamiento.
 
+&lt;br&gt;
 --
 
 ### ¡Vamos a Rstudio!

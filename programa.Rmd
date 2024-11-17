@@ -33,7 +33,7 @@ site: distill::distill_website
   
 - Desarrollo de una app de principio a fin. Inputs + Outputs + Renders + Reactivos
 
-### Módulo IV: Compartiendo mi app
+### Módulo V: Compartiendo mi app
   
 - Compartir la app (deploy) a través de diferentes opciones. Publicacion de la app en shinyapps.io (gratis).
 
