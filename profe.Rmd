@@ -1,15 +1,15 @@
 ---
 title: "Elian Soutullo"
-#image: "img/perfil.jpeg"
+image: "img/image.png"
 links:
   #- label: Estación R
   #  url: "https://estacion-r.netlify.app/"
-  #- label: LinkedIn
-  #  url: "https://www.linkedin.com/in/ptiscornia/"
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/eli%C3%A1n-soutullo/"
   #- label: Twitter
   #  url: "https://x.com/estacion_erre"
-  #- label: GitHub
-  #  url: "https://github.com/Estacion-R"
+  - label: GitHub
+    url: "https://github.com/eliansoutu"
   #- label: Email
   #  url: "mailto:pablotiscornia@estacion-r.com"
 output:
