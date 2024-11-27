@@ -27,8 +27,8 @@ navbar:
           href: a_diapositivas/01-intro_shiny.html
         - text: "Módulo II - User Interface (UI)"
           href: a_diapositivas/02-ui_shiny.html
-        #- text: "Módulo III - Procesamiento de datos"
-        #  href: a_diapositivas/02-procesamiento_de_datos.html
+        - text: "Módulo III - Server"
+          href: a_diapositivas/03-server_shiny.html
         #- text: "Modulo IV - Visualizacion de datos"
         #  href: a_diapositivas/03-visualizacion_de_datos.html
         #- text: "Módulo V - Informes con Rmarkdown"
