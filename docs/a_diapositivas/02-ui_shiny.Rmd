@@ -784,7 +784,7 @@ https://gallery.shinyapps.io/064-telephones-by-region/
 
 Utilizando el paquete [`shinythemes`](https://rstudio.github.io/shinythemes/) o [`bslib`](https://rstudio.github.io/bslib/) podemos acceder rápidamente a algunos temas predefinidos de Bootstrap.
 
-`fluidPage()` o `page_fluid()` tienen la opción de pasarle un `theme` que se aplicará a la app. Por ejemplo, `theme = bslib::bs_theme(preset = "superhero")` produce esta salida:
+`fluidPage()` o `navbarPage()` tienen la opción de pasarle un `theme` que se aplicará a la app. Por ejemplo, `theme = bslib::bs_theme(bootswatch = "superhero")` produce esta salida:
 
 <br>
 
@@ -837,7 +837,7 @@ Ambos paquetes brindan un widget para probar los temas en tiempo real, escribien
 Aprovechando el widget de `bslib`, podemos jugar a cambiar colores y fuentes, para luego modificar los parámetros que querramos retocar de nuestro tema
 
 ```
-bs_theme(preset = "superhero",
+bs_theme(bootswatch = "superhero",
   bg = "#0b3d91", 
   fg = "white"
 )
