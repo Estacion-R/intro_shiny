@@ -31,8 +31,8 @@ navbar:
           href: a_diapositivas/03-server_shiny.html
         - text: "Modulo IV - Reactividad"
           href: a_diapositivas/04-reactividad-shiny.html
-        #- text: "Módulo V - Informes con Rmarkdown"
-        #  href: a_diapositivas/04-reportes.html
+        - text: "Módulo V - Deploy"
+          href: a_diapositivas/05-deploy_shiny.html
     # - text: "Ejercitacion"
     #   menu:
         #- text: "Modulo 01.a - R base - Practica"
